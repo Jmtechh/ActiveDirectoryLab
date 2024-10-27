@@ -8,7 +8,8 @@
 
 <h2>Utilities Used</h2>
 
-- <b>Virtualbox</b> 
+- <b>Virtualbox</b>
+- <b>Windows virtual machines</b> 
 
 <h2>Environments Used </h2>
 
