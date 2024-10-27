@@ -41,7 +41,9 @@ Now that the virtual machine is up and running. I assigned network IP addressing
 <img src="https://i.imgur.com/e5Mho2Q.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Wait for process to complete (may take some time):  <br/>
+Next I installed Active Directory Domain Services using the server manager that comes with the Windows server ISO. Installing Active Directory Domain Services enables me to set the current virtual machine as a domain that other computers/devices can join.
+<br />
+<br />
 <img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
