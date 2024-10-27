@@ -1,9 +1,8 @@
 <h1>Active Directory HomeLab</h1>
 
 
-
 <h2>Description</h2>
-
+The aim of this lab is to pracitce using Active directory via virtual box. In this lab I create two Windows virtual machines. One of them will be the domain controller which I will install Active Directory and the other will be the client PC that will be under the domain of the domain controller. This lab will include networking, user creation in AD, IP addressing, routing, NAT, domain controll, and scripting. 
 
 
 <h2>Utilities Used</h2>
@@ -19,7 +18,7 @@
 
 <p align="center">
 Launch the utility: <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/xmKdgdn.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>   
 <br />
 <br />
 Select the disk:  <br/>
