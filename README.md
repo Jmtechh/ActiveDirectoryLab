@@ -15,22 +15,30 @@ The aim of this lab is to pracitce using Active directory via virtual box. In th
 - <b>Windows 10</b> 
 
 <h2>Program walk-through:</h2>
+The first thing I did was open up Virtualbox and create a Windows virtual machine that was dedicated to be the doimain controller.
 
-<p align="center">
-Launch the utility: <br/>
+
 <img src="https://i.imgur.com/xmKdgdn.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>   
 <br />
 <br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+After I finished creating the domain controller Windows virtual machine. I then configured two virtual NICs so the domain controller can access networks and communicate with other devices. 
+One NIC has a NAT network adapter attatched to it. The NAT allows the network adapter to get IP addressing and internet from the home router network. While the other NIC is dedicated for internal communication through it's attatched network adapter configurations.
 <br />
 <br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/nzvvzZh.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+Once I have installed the Windows server operating system ISO. The domain controller virtual machine creation is complete.
+<br />
+<br />
+<img src="https://i.imgur.com/18RqNoE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Now that the virtual machine is up and running. I need to assign network IP addressing to the internal NIC since it will not be getting it's IP address from the home router network so I must create a static IP address for this internal/private network.
+<br />
+<br />
+<img src="https://i.imgur.com/e5Mho2Q.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Wait for process to complete (may take some time):  <br/>
