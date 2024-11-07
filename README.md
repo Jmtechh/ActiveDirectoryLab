@@ -50,10 +50,15 @@ Next I installed Active Directory Domain Services using the server manager that 
 The next service I installed was Remote Access. This service enabled me to configure routing and NAT. The routing will allow the domain controller virtual machine to communicate with other devices on a network.  The NAT feature will allow the clients/PCs on a private network to connect to the internet through the domain controller, since the domain controller will have internet access and NAT installed.
 
 <img src="https://i.imgur.com/TOLwWQ9.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+
+After installing the Remote access service. I installed the DHCP service onto the domain controller virtual machine via the server manager application. The DHCP will help me to automatically provide the client PC with an IP address so that it can communicate with the domain controller virtual machine/PC when I add it to the domain of the domain controller.
+
+From within the DHCP service I configured a scope. This scope is basically a pool of IP addresses that can be used by computer devices for networking communication. The scope is intened to provide the client PC with an IP address within a specific network/pool. In this setup, the network scope is linked to the domain controller's internal network adapter. This allows the DHCP server to assign an IP address to the client PC, enabling it to communicate with the domain controller through its internal network adapter.
 <br />
 <br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<img src="https://i.imgur.com/Mi77oSM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
 <!--
