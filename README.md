@@ -2,7 +2,7 @@
 
 
 <h2>Description</h2>
-The aim of this lab is to pracitce using Active directory via virtual box. In this lab I create two Windows virtual machines. One of them will be the domain controller which I will install Active Directory and the other will be the client PC that will be under the domain of the domain controller. This lab will include networking, user creation in AD, IP addressing, routing, NAT, domain controll, and scripting. 
+The aim of this lab is to pracitce using Active directory via virtual box. In this lab I create two Windows virtual machines. One of them will be the domain controller which I will install Active Directory and the other will be the client PC that will be under the domain of the domain controller PC. One of the goals of this lab is to enable network communication between the two virtual machines through IP address, routing and NAT. Another goal is to create multiple users and input it into Active Directory under the users folder. This will be done by running a script in powershell that automatically inputs a list of users/names into the AD system.
 
 
 <h2>Utilities Used</h2>
@@ -60,6 +60,16 @@ From within the DHCP service I configured a scope. This scope is basically a poo
 <br />
 <img src="https://i.imgur.com/Mi77oSM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+I now have AD DS (Active Directory Domain Services), RAS (Remote Access), DHCP (Dynamic Host Configuration Protocol), and NAT (Network Address Translation) installed onto the Windows domain controller via the server manager application. These services combined allow me to carry out the aim of this lab.
+<br />
+<br />
+<img src="https://i.imgur.com/HY7DVKj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+The next step in the lab is to automatically populate the recently installed Active Directory Service with users. This is done by running a powershell script.
+
+<img src="https://i.imgur.com/4un3gdE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+
 
 <!--
  ```diff
