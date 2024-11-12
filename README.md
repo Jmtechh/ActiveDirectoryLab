@@ -100,6 +100,8 @@ Once I have installed the Windows 10 operating system ISO onto the virtual machi
 
 <img src="https://i.imgur.com/fW2k5Tv.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
+<img src="https://i.imgur.com/3mvzlKR.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
 
 
 
