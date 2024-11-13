@@ -98,7 +98,9 @@ So I opened up the command prompt and ran "ipconfig" which showed me the network
 As you can see the IPV4 address comes under the DHCP scope that I configured on the domain controller earlier. This means the client device has joined the internal network of the domain controller. The DHCP on the domain controller has also assigned a subnet mask which is ued in combination with the IPV4 address for network identification and communication. And lastly the DHCP has given the client PC a defualt gateway IP address to refer to when it needs to access the internet, access external networks, and resolve external DNS queries.
 <br />
 <br />
-<img src="https://i.imgur.com/62kUtAj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Another thing that I i verify in the in the command terminal is weather or not this new virtual machine can resolve DNS queries and access the internet via the IPV4 IP address and the default gateway.
+
+<img src="https://i.imgur.com/LUbc6Gc.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 <img src="https://i.imgur.com/xn5M7te.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
