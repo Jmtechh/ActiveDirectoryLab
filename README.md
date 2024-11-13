@@ -100,7 +100,9 @@ As you can see the IPV4 address comes under the DHCP scope that I configured on 
 <br />
 
 <img src="https://i.imgur.com/Y68Q04z.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+When I go back to Active Directory on the domain controller vm. You can see an IP address under the lease folder. The IP address is the same IP address that you see when you look at the IP address given to the client virtual machine in the image above.
 
+This shows that the DHCP server has leased an IP address to the client device which is extra verification that the client is apart of the network of the domain controller.
 <img src="https://i.imgur.com/OkMwZL1.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 Another thing that I verify in the in the command terminal is weather or not this new virtual machine can resolve DNS queries and access the internet via the IPV4 IP address and the default gateway. 
 
