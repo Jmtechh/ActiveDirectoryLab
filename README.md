@@ -104,7 +104,9 @@ Another thing that I verify in the in the command terminal is weather or not thi
 
 I first ping youtube.com to see if the virtual machine reslove DNS addresses. I next ping the IP address of youtube.com to see if the deviece can also access the internet.
 
-The exact proccess that is happening in the background is when I ping youtbue.com the device is 
+The exact proccess that is happening in the background when I ping youtbue.com is... 
+
+The exact proccess that is happening in the background is when I ping the IP address of youtube.com is...
 
 
 At one point the client was not recieving internet but I fixed this issue with the DNS forwarder feature.
