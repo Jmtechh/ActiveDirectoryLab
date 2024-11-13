@@ -87,11 +87,17 @@ After creating the virtual machine I attatch an internal NIC/network adapter whi
 <br />
 <img src="https://i.imgur.com/Y6RUWUm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
-Once I have installed the Windows 10 operating system ISO onto the virtual machine. The creation of client PC virtual machine is complete. When I go to start up the virtual machine I will be prompted to attatch the Windows ISO which will begin the installation process of the Windos operation system onto to the virtual machine.
+Once I have installed the Windows 10 operating system ISO onto the virtual machine. The creation of client PC is complete. When I go to start up the virtual machine I will be prompted to attatch the Windows ISO which will begin the installation process of the Windows operation system onto to the virtual machine.
 <br />
 <br />
 <img src="https://i.imgur.com/87Fx3MF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+One thing I verifed once the client PC is running was weather or not the DHCP has provided the client with the correct IP addressing to communicate, network and access the internet.
 
+So I opened up the command prompt and ran "ipconfig" which showed me the networking configurations to this virtual machine... 
+
+As you can see the IPV4 address comes under the DHCP scope that I configured on the domain controller earlier. This means the client device has joined the internal network of the domain controller. The DHCP on the domain controller has also assigned a subnet mask which is ued in combination with the IPV4 address for network identification and communication. And lastly the DHCP has given the client PC a defualt gateway IP address to refer to when it needs to access the internet, access external networks, and resolve external DNS queries.
+<br />
+<br />
 <img src="https://i.imgur.com/62kUtAj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 <img src="https://i.imgur.com/xn5M7te.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
