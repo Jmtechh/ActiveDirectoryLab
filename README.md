@@ -100,7 +100,14 @@ As you can see the IPV4 address comes under the DHCP scope that I configured on 
 <br />
 
 <img src="https://i.imgur.com/Y68Q04z.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-Another thing that I verify in the in the command terminal is weather or not this new virtual machine can resolve DNS queries and access the internet via the IPV4 IP address and the default gateway.
+Another thing that I verify in the in the command terminal is weather or not this new virtual machine can resolve DNS queries and access the internet via the IPV4 IP address and the default gateway. 
+
+I first ping youtube.com to see if the virtual machine reslove DNS addresses. I next ping the IP address of youtube.com to see if the deviece can also access the internet.
+
+The exact proccess that is happening in the background is when I ping youtbue.com the device is 
+
+
+At one point the client was not recieving internet but I fixed this issue with the DNS forwarder feature.
 
 <img src="https://i.imgur.com/LUbc6Gc.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
