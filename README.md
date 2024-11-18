@@ -70,7 +70,6 @@ The next step in the lab is to automatically populate the recently installed Act
 Now the next part of this lab is to create a new virtual machine that is dedicated to be a client PC under the domain of the domain controller PC.
 
 <img src="https://i.imgur.com/8DKOt8b.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
 After creating the virtual machine I attatch an internal NIC/network adapter which enables network communication with the domain controller virtual machine since it also has an internal NIC/network adapter.
 <br />
 <br />
