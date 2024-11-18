@@ -26,7 +26,6 @@ One NIC has a NAT network adapter attatched to it. The NAT allows the network ad
 <br />
 <br />
 <img src="https://i.imgur.com/nzvvzZh.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
 Once I have installed the Windows server operating system ISO onto the virtual machine. The domain controller virtual machine creation is complete.
 <br />
 <br />
