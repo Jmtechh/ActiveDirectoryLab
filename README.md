@@ -58,8 +58,7 @@ From within the DHCP service I configured a scope range. This scope is basically
 <img src="https://i.imgur.com/Mi77oSM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-<br />
-Another thing that I configured when setting up DHCP was scope options. One of the options is
+Another thing that I configured when setting up DHCP was scope options. These options include DNS, router, and DNS Domain Name. The router acts as a default gateway for clients that recieve an IP address from this DHCP. This means that when the client wants to access the internet or network with external devices it will go through the router IP address. The DNS server is used for resolving domain names such as websites, internal servers or other devices. The DNS domain name simplifies access to internal resources. 
 <br />
 <br />
 <img src="https://i.imgur.com/KHG9Tp2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
