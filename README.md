@@ -33,7 +33,6 @@ Once I have installed the Windows server operating system ISO onto the virtual m
 <br />
 <img src="https://i.imgur.com/18RqNoE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
-<br />
 Now that the virtual machine is up and running. I assigned network IP addressing to the internal NIC since it will not be getting it's IP address from the home router network so I must create a static IP address for this internal/private network.
 <br />
 <br />
