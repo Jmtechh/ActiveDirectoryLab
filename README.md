@@ -22,7 +22,6 @@ The first thing I did was open up Virtualbox and create a Windows virtual machin
 
 <img src="https://i.imgur.com/xmKdgdn.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>   
 <br />
-<br />
 After I finished creating the domain controller Windows virtual machine. I then configured two virtual NICs so the domain controller can access networks and communicate with other devices. 
 One NIC has a NAT network adapter attatched to it. The NAT allows the network adapter to get IP addressing and internet from the home router network. While the other NIC is dedicated for internal communication through it's attatched network adapter configurations.
 <br />
