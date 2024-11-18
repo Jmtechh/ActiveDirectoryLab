@@ -124,14 +124,22 @@ As you can see they both returned packets which means that everything sould be w
 
 <img src="https://i.imgur.com/LUbc6Gc.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
+I then added the client VM to the domain of the Domain Controller VM by going into the settings of the client machine and setting it up.
+
 <img src="https://i.imgur.com/fW2k5Tv.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-
+As you can see the client VM device has beed added to the Active Directoryunder the computer folder which verifies that the client VM has been added to the domain.
+<br />
+<br />
 <img src="https://i.imgur.com/3mvzlKR.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-
+After I added the client VM to the domain. I logged into one of the users accounts that I created when running the powershell script from earlier.
+<br />
+<br />
 <img src="https://i.imgur.com/ipR7ypL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 <img src="https://i.imgur.com/mlqlaYZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-
+As you can see when I ran the command "whoami" in the cmd terminal, it displayed the new domain next to the users name which verifies that the client is now apart of "mydomain" which is the domain controllers domain name.
+<br />
+<br />
 <img src="https://i.imgur.com/hUWi20G.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 
