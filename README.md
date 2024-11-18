@@ -74,8 +74,7 @@ After creating the virtual machine I attatch an internal NIC/network adapter whi
 <br />
 <br />
 <img src="https://i.imgur.com/Y6RUWUm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-Once I have installed the Windows 10 operating system ISO onto the virtual machine. The creation of client PC is complete. When I go to start up the virtual machine I will be prompted to attatch the Windows ISO which will begin the installation process of the Windows operation system onto to the virtual machine.
+After I installed the Windows 10 operating system ISO onto the virtual machine. The creation of client PC is complete. When I go to start up the virtual machine I will be prompted to attatch the Windows ISO which will begin the installation process of the Windows operation system onto to the virtual machine.
 <br />
 <br />
 <img src="https://i.imgur.com/87Fx3MF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
