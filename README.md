@@ -43,9 +43,9 @@ Next I installed Active Directory Domain Services using the server manager that 
 <br />
 <img src="https://i.imgur.com/xOe6Rom.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
-<br />
 The next service I installed was Remote Access. This service enabled me to configure routing and NAT. The routing will allow the domain controller virtual machine to communicate with other devices on a network.  The NAT feature will allow the clients/PCs on a private network to connect to the internet through the domain controller, since the domain controller will have internet access and NAT installed.
-
+<br />
+<br />
 <img src="https://i.imgur.com/TOLwWQ9.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 
