@@ -110,14 +110,17 @@ This shows that the DHCP server has leased an IP address to the client device wh
 <img src="https://i.imgur.com/OkMwZL1.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 Another thing that I verify in the in the command terminal is weather or not this new virtual machine can resolve DNS queries and access the internet via the IPV4 IP address and the default gateway. 
 
-I first ping youtube.com to see if the virtual machine reslove DNS addresses. I next ping the IP address of youtube.com to see if the deviece can also access the internet.
+At one point the client was not recieving internet but I fixed this issue with the DNS forwarder feature...
 
-The exact proccess that is happening in the background when I ping youtbue.com is... 
+Initially, the client VM could communicate with the DC and obtain an IP address via DHCP, but it couldn't access the internet because it was using the DC (172.16.0.1) as its DNS server. The DC’s DNS server was only set up to resolve internal domain names (e.g., your domain corp.local) and didn’t know how to resolve external websites (like google.com).
 
-The exact proccess that is happening in the background is when I ping the IP address of youtube.com is...
+To fix this, I configured the DC’s DNS server to forward any external DNS queries to my home router's IP address. This allowed the DC to pass on queries it couldn’t resolve internally to the router, which could reach the internet. As a result, the client VM could now resolve external domain names and access the internet through the DC’s NAT and DNS forwarding setup.
 
+And to test that the client Vm could resolve the external domain names and access the internet I ran some ping tests.
 
-At one point the client was not recieving internet but I fixed this issue with the DNS forwarder feature.
+I first pinged youtube.com to see if the virtual machine reslove DNS addresses. I next pinged the IP address of youtube.com to see if the deviece can also access the internet.
+
+As you can see they both returned packets which means that everything sould be working as they should.
 
 <img src="https://i.imgur.com/LUbc6Gc.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
